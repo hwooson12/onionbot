@@ -1,5 +1,5 @@
 # ion slack bot
-Simple Slack Bot for onionfive(http://www.onionfive.io/)
+Simple Slack Bot
 
 ## Usage
 ```
