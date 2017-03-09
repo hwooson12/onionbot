@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 base_dir = path.dirname(__file__)
 requirements_path = path.join(base_dir, 'requirements.txt')
-install_requires = map(str.strip, open(requirements_path).readlines())
+install_requires = list(map(str.strip, open(requirements_path).readlines()))
 
 
 setup(
